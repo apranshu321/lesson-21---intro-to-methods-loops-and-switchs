@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><title>This_is_my_first_loop</title></head>
+<body>
+<h1>This is my first loop using javascript</h1>
+<p id="demo"></p>
+<script>
+    var fruits = ["banana","mango","grapes","watermelon","kiwi","orange"]
+    var text = "";
+    var i;
+    for ( i = 0; i < fruits.length; i++){
+        text += fruits[i] + "<br>";
+    }
+    document.getElementById("demo").innerHTML = text;
+</script>
+</body>
+</html>
